@@ -10,13 +10,11 @@
     </head>
     <body>
         <script>
-            document.addEventListener("keypress", (event) => {
-
-                if (event.code == "ArrowRight") nextSlide();
-                if (event.code == "ArrowLeft") prevSlide();
-                alert("hello " + event.code)
-
-            }, false)
+            document.addEventListener('keypress', (event) => {
+var code = event.code;
+                if (code === "ArrowRight") nextSlide()
+                if (code === "ArrowLeft") prevSlide()
+}, false);
             function nextSlide() {
 
                 alert("Next Slide");
