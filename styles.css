@@ -1,0 +1,23 @@
+.rightButton {
+
+    margin-left: 0vw;
+    margin-top: 0vh;
+    height: 100vh;
+    width: 50vw;
+
+}
+
+.leftButton {
+
+    margin-left: 50vw;
+    margin-top: 0vh;
+    height: 100vh;
+    width: 50vw;
+
+}
+
+.noStyle {
+
+    all: unset;
+
+}
