@@ -10,11 +10,13 @@
     </head>
     <body>
         <script>
-            document.addEventListener('keypress', (event) => {
-                var code = event.code;
-                if (code === "ArrowRight"){ nextSlide()}
-                if (code === "ArrowLeft") {prevSlide()}
-            }, false);
+            document.addEventListener('keydown', (event) => {
+
+                var key = event.code;
+                if (key === "ArrowLeft") {prevSlide()}
+                else if (key === "ArrowRight") {nextSlide()}
+
+            }, false)
             
             var currentId = 0;
             var maxId = 1;
